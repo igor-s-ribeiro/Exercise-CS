@@ -1,0 +1,15 @@
+\\192.168.1.1\Arquivos\Usuarios\igor.ribeiro\Desktop\Exercise CS\obj\Debug\net6.0\Exercise CS.csproj.AssemblyReference.cache
+\\192.168.1.1\Arquivos\Usuarios\igor.ribeiro\Desktop\Exercise CS\obj\Debug\net6.0\Exercise CS.GeneratedMSBuildEditorConfig.editorconfig
+\\192.168.1.1\Arquivos\Usuarios\igor.ribeiro\Desktop\Exercise CS\obj\Debug\net6.0\Exercise CS.AssemblyInfoInputs.cache
+\\192.168.1.1\Arquivos\Usuarios\igor.ribeiro\Desktop\Exercise CS\obj\Debug\net6.0\Exercise CS.AssemblyInfo.cs
+\\192.168.1.1\Arquivos\Usuarios\igor.ribeiro\Desktop\Exercise CS\obj\Debug\net6.0\Exercise CS.csproj.CoreCompileInputs.cache
+\\192.168.1.1\Arquivos\Usuarios\igor.ribeiro\Desktop\Exercise CS\obj\Debug\net6.0\Exercise CS.dll
+\\192.168.1.1\Arquivos\Usuarios\igor.ribeiro\Desktop\Exercise CS\obj\Debug\net6.0\refint\Exercise CS.dll
+\\192.168.1.1\Arquivos\Usuarios\igor.ribeiro\Desktop\Exercise CS\obj\Debug\net6.0\Exercise CS.pdb
+\\192.168.1.1\Arquivos\Usuarios\igor.ribeiro\Desktop\Exercise CS\bin\Debug\net6.0\Exercise CS.exe
+\\192.168.1.1\Arquivos\Usuarios\igor.ribeiro\Desktop\Exercise CS\bin\Debug\net6.0\Exercise CS.deps.json
+\\192.168.1.1\Arquivos\Usuarios\igor.ribeiro\Desktop\Exercise CS\bin\Debug\net6.0\Exercise CS.runtimeconfig.json
+\\192.168.1.1\Arquivos\Usuarios\igor.ribeiro\Desktop\Exercise CS\bin\Debug\net6.0\Exercise CS.dll
+\\192.168.1.1\Arquivos\Usuarios\igor.ribeiro\Desktop\Exercise CS\bin\Debug\net6.0\Exercise CS.pdb
+\\192.168.1.1\Arquivos\Usuarios\igor.ribeiro\Desktop\Exercise CS\obj\Debug\net6.0\Exercise CS.genruntimeconfig.cache
+\\192.168.1.1\Arquivos\Usuarios\igor.ribeiro\Desktop\Exercise CS\obj\Debug\net6.0\ref\Exercise CS.dll
