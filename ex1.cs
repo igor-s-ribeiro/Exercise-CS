@@ -24,13 +24,13 @@ idade4 = Convert.ToDouble(Console.ReadLine());
 Console.Write("Informe a idade do 5° aluno: ");
 idade5 = Convert.ToDouble(Console.ReadLine());
 
-media=(idade1+idade2+idade3+idade4+idade5) / 5;
-Console.WriteLine("A média entre as idades é: " +media);
+media = (idade1 + idade2 + idade3 + idade4 + idade5) / 5;
+Console.WriteLine("A média entre as idades é: " + media);
 
- Console.ReadKey();
+Console.ReadKey();
 
 
- // Faça um algoritmo que calcule e exiba o salário reajustado de dez funcionários de acordo com a seguinte regra: 
+// Faça um algoritmo que calcule e exiba o salário reajustado de dez funcionários de acordo com a seguinte regra: 
 // Salário até 300, reajuste de 50%; Salários maiores que 300, reajuste de 30%.
 
 Double salario = 0;
@@ -58,16 +58,62 @@ Console.ReadKey();
 int result = 0;
 int num = 0;
 
- Console.WriteLine("Determina se o número é par ou impar \r\n");
- Console.Write("Informe um número: ");
- num = Convert.ToInt32(Console.ReadLine());
- result = num % 2;
- 
- if (result == 1)
- {
- Console.WriteLine("O número informado é impar");
- }
- else
- {
- Console.WriteLine("O número informado é par");
- }
+Console.WriteLine("Determina se o número é par ou impar \r\n");
+Console.Write("Informe um número: ");
+num = Convert.ToInt32(Console.ReadLine());
+result = num % 2;
+
+if (result == 1)
+{
+    Console.WriteLine("O número informado é impar");
+}
+else
+{
+    Console.WriteLine("O número informado é par");
+}
+
+// Faça um algoritmo que leia a altura e a matricula de dez aluno. 
+// Mostre a matricula do aluno mais alto e do aluno mais baixo.
+
+String maMatricula, meMatricula, Matricula;
+Double maAltura, meAltura, Altura = 0;
+
+Console.WriteLine("Determina o maior aluno e o menor aluno.");
+
+Console.Write("Informe a matricula do aluno: ");
+Matricula = Console.ReadLine();
+
+Console.WriteLine("Informe a altura do aluno: ");
+Altura = Convert.ToDouble(Console.ReadLine());
+
+maAltura = Altura;
+meAltura = Altura;
+maMatricula = Matricula;
+meMatricula = Matricula;
+int i = 1;
+
+while (i < 5)
+{
+    Console.Write("Informe a matricula do aluno: ");
+    Matricula = Console.ReadLine();
+
+    Console.Write("Informe a altura do aluno: ");
+    Altura = Convert.ToDouble(Console.ReadLine());
+
+    if (maAltura < Altura)
+    {
+        maMatricula = Matricula;
+        maAltura = Altura;
+    }
+
+    if (meAltura > Altura)
+    {
+        meMatricula = Matricula;
+        meAltura = Altura;
+    }
+    i++;
+}
+Console.WriteLine("Maior aluno");
+Console.WriteLine("Matricula: {0}, Altura: {1}", maMatricula, maAltura);
+Console.WriteLine("Menor aluno");
+Console.WriteLine("Matricula: {0}, Altura: {1}", meMatricula, meAltura);
