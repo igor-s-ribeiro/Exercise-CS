@@ -28,3 +28,46 @@ media=(idade1+idade2+idade3+idade4+idade5) / 5;
 Console.WriteLine("A média entre as idades é: " +media);
 
  Console.ReadKey();
+
+
+ // Faça um algoritmo que calcule e exiba o salário reajustado de dez funcionários de acordo com a seguinte regra: 
+// Salário até 300, reajuste de 50%; Salários maiores que 300, reajuste de 30%.
+
+Double salario = 0;
+Double salarioNovo = 0;
+Console.WriteLine("Efetua o reajuste salarial");
+for (int i = 0; i < 3; i++)
+{
+    Console.Write("Informe o salário: ");
+    salario = Convert.ToDouble(Console.ReadLine());
+    if (salario <= 300)
+    { //50%
+        salarioNovo = salario * 1.50;
+    }
+    else
+    { //30%
+        salarioNovo = salario + ((salario * 30) / 100);
+    }
+    Console.WriteLine("Salário reajustado: " + salarioNovo);
+}
+Console.ReadKey();
+
+// Crie um algoritmo que verifique se um número informado é par ou impar
+
+
+int result = 0;
+int num = 0;
+
+ Console.WriteLine("Determina se o número é par ou impar \r\n");
+ Console.Write("Informe um número: ");
+ num = Convert.ToInt32(Console.ReadLine());
+ result = num % 2;
+ 
+ if (result == 1)
+ {
+ Console.WriteLine("O número informado é impar");
+ }
+ else
+ {
+ Console.WriteLine("O número informado é par");
+ }
